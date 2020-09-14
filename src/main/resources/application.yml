@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8083
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -10,4 +10,5 @@ spring.activiti.history-level: full
 spring.activiti.db-history-used: true
 #自动部署
 spring.activiti.check-process-definitions: false
-
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
